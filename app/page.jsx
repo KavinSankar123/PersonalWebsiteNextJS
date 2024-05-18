@@ -1,10 +1,11 @@
 import * as React from "react";
 
+// import workExperienceData from "./work-experience-data.json";
+// import WorkExperienceCard from "@/components/work-exp-card";
 
 export default function Home() {
   return (
     <div className="flex justify-center min-h-screen">
-
       <div className="flex justify-between max-w-4xl w-full p-4">
         <div className="text-slate-200 p-4">
           <h1 className="font-sans font-bold text-4xl mt-9">Kavin Sankar</h1>
@@ -29,6 +30,19 @@ export default function Home() {
               commodo consequat.
             </p>
           </div>
+
+          {/* <div className="grid grid-cols-1 gap-6">
+            {workExperienceData.map((experience) => (
+              <WorkExperienceCard 
+              title={experience.title}
+              startDate={experience.startDate}
+              endDate={experience.endDate}
+              company={experience.company}
+              description={experience.description}
+              skills={experience.skills}
+              />
+            ))}
+          </div> */}
         </div>
       </div>
     </div>

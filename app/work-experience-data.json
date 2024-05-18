@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "startDate": "May 2024",
+        "endDate": "Aug 2024",
+        "positionTitle": "Software Engineering Intern",
+        "company": "PNC Financial Services",
+        "description": "Currently Working...",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "Micro API"
+        ]
+    }
+]
