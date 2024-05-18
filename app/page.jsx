@@ -1,7 +1,9 @@
+"use client";
+
 import * as React from "react";
 
-// import workExperienceData from "./work-experience-data.json";
-// import WorkExperienceCard from "@/components/work-exp-card";
+import { WorkExperienceCard } from "@/components/work-experience-card";
+import workExperienceData from "./work-experience-data.json";
 
 export default function Home() {
   return (
@@ -31,18 +33,26 @@ export default function Home() {
             </p>
           </div>
 
-          {/* <div className="grid grid-cols-1 gap-6">
-            {workExperienceData.map((experience) => (
-              <WorkExperienceCard 
-              title={experience.title}
-              startDate={experience.startDate}
-              endDate={experience.endDate}
-              company={experience.company}
-              description={experience.description}
-              skills={experience.skills}
+          <div>
+            {workExperienceData.map((exp) => (
+              <WorkExperienceCard
+                key={exp.id}
+                title={exp.title}
+                duration={exp.duration}
+                company={exp.company}
+                description={exp.description}
+                skills={exp.skills}
               />
             ))}
-          </div> */}
+
+            {/* <WorkExperienceCard
+              title="Software Engineer"
+              duration="2020 - 2022"
+              company="Acme Inc."
+              description="As a Software Engineer at Acme Inc., I was responsible for designing and developing scalable web applications using React, Node.js, and PostgreSQL. I collaborated with cross-functional teams to deliver high-quality features and optimize system performance."
+              skills={["React", "Node.js", "PostgreSQL", "Git", "Agile"]}
+            /> */}
+          </div>
         </div>
       </div>
     </div>
