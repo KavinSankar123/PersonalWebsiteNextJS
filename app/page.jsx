@@ -18,7 +18,7 @@ export default function Home() {
         </div>
 
         <div className="font-sans p-4 max-w-md">
-          <div className="font-sans text-sm text-slate-400 mt-10">
+          <div className="font-sans font-light text-sm text-slate-400 mt-10">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -31,9 +31,8 @@ export default function Home() {
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
               commodo consequat.
             </p>
-          </div>
-
-          <div>
+            <br></br>
+            <div className="mt-10">
             {workExperienceData.map((exp) => (
               <WorkExperienceCard
                 key={exp.id}
@@ -44,15 +43,10 @@ export default function Home() {
                 skills={exp.skills}
               />
             ))}
-
-            {/* <WorkExperienceCard
-              title="Software Engineer"
-              duration="2020 - 2022"
-              company="Acme Inc."
-              description="As a Software Engineer at Acme Inc., I was responsible for designing and developing scalable web applications using React, Node.js, and PostgreSQL. I collaborated with cross-functional teams to deliver high-quality features and optimize system performance."
-              skills={["React", "Node.js", "PostgreSQL", "Git", "Agile"]}
-            /> */}
           </div>
+          </div>
+
+          
         </div>
       </div>
     </div>
