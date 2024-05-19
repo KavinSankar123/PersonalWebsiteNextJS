@@ -4,6 +4,10 @@ import * as React from "react";
 
 import { WorkExperienceCard } from "@/components/work-experience-card";
 import workExperienceData from "./work-experience-data.json";
+import Link from "next/link";
+
+import { ExternalLink } from "@/components/ui/externallink";
+
 
 export default function Home() {
   return (
@@ -12,7 +16,7 @@ export default function Home() {
         <div className="text-slate-200 p-4">
           <h1 className="font-sans font-bold text-4xl mt-9">Kavin Sankar</h1>
           <h2 className="font-sans text-l mt-2">Senior CS Student</h2>
-          <p className="font-sans text-slate-400 text-sm mt-4">
+          <p className="font-sans font-extralight text-slate-400 text-sm mt-4">
             Small one sentence bio goes here.
           </p>
         </div>
@@ -33,20 +37,26 @@ export default function Home() {
             </p>
             <br></br>
             <div className="mt-10">
-            {workExperienceData.map((exp) => (
-              <WorkExperienceCard
-                key={exp.id}
-                title={exp.title}
-                duration={exp.duration}
-                company={exp.company}
-                description={exp.description}
-                skills={exp.skills}
-              />
-            ))}
-          </div>
-          </div>
+              {workExperienceData.map((exp) => (
+                <WorkExperienceCard
+                  key={exp.id}
+                  title={exp.title}
+                  duration={exp.duration}
+                  company={exp.company}
+                  description={exp.description}
+                  skills={exp.skills}
+                />
+              ))}
+            </div>
+            <br></br>
 
-          
+            <div className="flex font-bold text-slate-200 items-center mt-5 ml-5">
+              <Link href="/resume" className="flex items-center">
+                <span className="mr-1">Full Resume</span>
+                <ExternalLink/>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
