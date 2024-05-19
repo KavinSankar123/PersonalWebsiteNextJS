@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "duration": "May 2024 - Aug 2024",
+        "duration": "Sep 2023 - Apr 2024",
         "title": "Software Engineering Intern",
         "company": "Pitt Athletics",
         "description": "Developed 3 Python-based microservices for data ingestion for over 2,400,000 million records. Integrated data from REST APIs as primary data sources for microservices. Deployed microservices on AWS, utilizing AWS Lambda for testing and AWS Athena for SQL-based data manipulation. Wrote unit tests using Pytest to ensure 90% code coverage on developed services",
@@ -28,7 +28,7 @@
     },
     {
         "id": 3,
-        "duration": "May 2024 - Aug 2024",
+        "duration": "May 2023 - Aug 2023",
         "title": "System Administrator Intern",
         "company": "Federated Hermes",
         "description": "Developed Windows PowerShell scripts to perform automated checks on over 600 Windows servers prior to production to ensure proper setup. Guided a team of 8 interns in a company hackathon to create a financial services dashboard using Microsoft Power Apps to give insight regarding budget and actual expenses. Projected to save over $50,000 per year by effectively seeing over expenditure of funds through the dashboard. Designed a site using Microsoft Power BI for the technology department.",
@@ -40,7 +40,7 @@
     },
     {
         "id": 3,
-        "duration": "May 2024 - Aug 2024",
+        "duration": "Jan 2023 - May 2023",
         "title": "CS Undergraduate Teaching Assistant",
         "company": "University of Pittsburgh",
         "description": "Vastly improved students' ability to solve data structures & algorithm type questions. Taught students multiple data structures such as Linked Lists, Stacks, Queues, & Hashmaps. Delivered lectures on time complexities and algorithmic problem-solving techniques. Assisted students in gaining proficiency with the Java Collections Framework.",
@@ -53,7 +53,7 @@
     },
     {
         "id": 4,
-        "duration": "May 2024 - Aug 2024",
+        "duration": "Jan 2022 - May 2022",
         "title": "CS Undergraduate Teaching Assistant",
         "company": "University of Pittsburgh",
         "description": "Conducted Python programming lectures, covering core concepts and best practices. Taught data analysis tools such as Pandas, NumPy, Matplotlib, and Seaborn. Led a lab for 40 students, providing guidance on assignments and lab instructions. Scheduled and maintained regular office hours to meet with students.",

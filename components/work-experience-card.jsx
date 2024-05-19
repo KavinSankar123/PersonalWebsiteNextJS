@@ -6,14 +6,19 @@ import {
 } from "@/components/ui/card";
 
 export function WorkExperienceCard({
+  id,
   title,
   duration,
   company,
   description,
   skills,
+  className,
 }) {
   return (
-    <Card className="w-full max-w-md">
+    <Card
+      key={id}
+      className={`w-full max-w-md transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
+    >
       <CardHeader>
         <div className="flex flex-col gap-1">
           <div className="flex justify-between items-center gap-2">
@@ -39,8 +44,8 @@ export function WorkExperienceCard({
               <span
                 className="rounded-full px-2 py-1 text-xs font-extralight"
                 style={{
-                  backgroundColor: "rgba(39, 100, 85, 0.3)", // rgba with 50% transparency
-                  color: "#64ffda" // Your desired text color
+                  backgroundColor: "rgba(39, 100, 85, 0.3)", // rgba with 30% transparency
+                  color: "#64ffda",
                 }}
               >
                 {skill}
