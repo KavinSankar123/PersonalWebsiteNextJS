@@ -8,10 +8,11 @@ import { ProjectCard } from "@/components/project-card";
 import workExperienceData from "./work-experience-data.json";
 import projectsData from "./projects-data.json";
 
-import Image from "next/image";
 import Link from "next/link";
 
 import { ExternalLink } from "@/components/ui/externallink";
+
+
 
 export default function Home() {
   return (
@@ -65,6 +66,7 @@ export default function Home() {
               </Link>
             </div>
 
+
             <div className="mt-10">
               {projectsData.map((proj) => (
                 <ProjectCard
@@ -72,6 +74,7 @@ export default function Home() {
                   title={proj.title}
                   description={proj.description}
                   url={proj.url}
+                  imagePath={proj.imagePath}
                   tech={proj.tech}
                 />
               ))}

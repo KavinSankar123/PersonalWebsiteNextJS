@@ -22,36 +22,36 @@ export function WorkExperienceCard({
       <CardHeader>
         <div className="flex flex-col gap-1">
           <div className="flex justify-between items-center gap-2">
-            <h3 className="text-m text-slate-200 font-medium">{title}</h3>
+            <h3 className="text-xs text-slate-200 font-medium">{title}</h3>
 
             <div className="text-xs ml-auto">{duration}</div>
           </div>
-          <div className="flex items-center gap-2 text-sm text-gray-00 dark:text-gray-400">
+          <div className="flex items-center gap-2 text-xs text-gray-00 dark:text-gray-400">
             <BuildingIcon className="h-4 w-4" />
             <span>{company}</span>
           </div>
         </div>
       </CardHeader>
       <CardContent>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
+        <p className="text-xs text-gray-500 dark:text-gray-400">
           {description}
         </p>
       </CardContent>
       <CardFooter>
-        <div className="flex flex-wrap gap-2 text-slate-400">
-          <div className="flex flex-wrap gap-2 text-slate-400">
-            {skills.map((skill, index) => (
-              <span
-                className="rounded-full px-2 py-1 text-xs font-extralight"
-                style={{
-                  backgroundColor: "rgba(39, 100, 85, 0.3)", // rgba with 30% transparency
-                  color: "#64ffda",
-                }}
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
+        <div className="flex flex-wrap gap-1 text-slate-400">
+          {skills.map((skill, index) => (
+            <span
+              key={index}
+              className="rounded-full px-2 py-0.8 font-extralight" // Smaller padding and text size
+              style={{
+                backgroundColor: "rgba(39, 100, 85, 0.3)",
+                color: "#64ffda",
+                fontSize: "11px",
+              }}
+            >
+              {skill}
+            </span>
+          ))}
         </div>
       </CardFooter>
     </Card>

@@ -2,7 +2,7 @@ import React from "react";
 
 import { ArrowLink } from "./ui/arrowlink";
 
-import {Image} from "next/image";
+import Image from "next/image";
 
 import Link from "next/link";
 
@@ -22,50 +22,39 @@ export function ProjectCard({ id, title, description, url, imagePath, tech }) {
       <CardHeader>
         <div className="flex flex-col gap-1">
           <div className="flex justify-between items-center gap-2">
-            <Link href={url} className="flex items-center">
-              <span className="mr-1 text-slate-200">{title}</span>
-              <ArrowLink />
-            </Link>
-          </div>
-        </div>
-      </CardHeader>
-
-      {/* <CardHeader>
-        <div className="flex flex-col gap-1">
-          <div className="flex justify-between items-center gap-2">
-            
             <div className="flex items-center">
-              <Image src={imagePath} width={40} height={40} /> 
+              <div>
+                <Image alt="Cinect" src={imagePath} width={50} height={10} />
+              </div>
+
               <Link href={url} className="flex items-center ml-2">
-                <span className="mr-1 text-slate-200">{title}</span>
+                <span className="mr-1 text-xs text-slate-200">{title}</span>
                 <ArrowLink />
               </Link>
             </div>
           </div>
         </div>
-      </CardHeader> */}
+      </CardHeader>
 
       <CardContent>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          {description}
-        </p>
+        <p className="text-xs text-gray-500 text-slate-500">{description}</p>
       </CardContent>
 
       <CardFooter>
-        <div className="flex flex-wrap gap-2 text-slate-400">
-          <div className="flex flex-wrap gap-2 text-slate-400">
-            {tech.map((skill, index) => (
-              <span
-                className="rounded-full px-2 py-1 text-xs font-extralight"
-                style={{
-                  backgroundColor: "rgba(39, 100, 85, 0.3)", // rgba with 30% transparency
-                  color: "#64ffda",
-                }}
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
+      <div className="flex flex-wrap gap-1 text-slate-400">
+          {tech.map((skill, index) => (
+            <span
+              key={index}
+              className="rounded-full px-2 py-0.8 font-extralight" // Smaller padding and text size
+              style={{
+                backgroundColor: "rgba(39, 100, 85, 0.3)",
+                color: "#64ffda",
+                fontSize: "11px",
+              }}
+            >
+              {skill}
+            </span>
+          ))}
         </div>
       </CardFooter>
     </Card>
