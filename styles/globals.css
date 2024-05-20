@@ -5,3 +5,9 @@
 body {
   background-color: #0f172d;
 }
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}

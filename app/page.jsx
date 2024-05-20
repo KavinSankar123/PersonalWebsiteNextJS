@@ -11,40 +11,68 @@ import projectsData from "./projects-data.json";
 import Link from "next/link";
 
 import { ExternalLink } from "@/components/ui/externallink";
-
-
+import { NavbarSection } from "@/components/ui/navbarsection";
 
 export default function Home() {
   return (
     <div className="flex justify-center min-h-screen">
       <div className="flex justify-between max-w-4xl w-full p-4">
         <div className="w-1/3 p-4">
-          <div className="text-slate-200 fixed">
+          <div className="max-w-64 text-slate-200 fixed">
             <h1 className="font-sans font-bold text-4xl mt-9">Kavin Sankar</h1>
             <h2 className="font-sans text-l mt-2">Senior CS Student</h2>
             <p className="font-sans font-extralight text-slate-400 text-sm mt-4">
-              Small one sentence bio goes here.
+              Aspiring software engineer, interested in backend development.
             </p>
+
+            <div className="font-bold text-xs mt-10">
+              <div className="flex items-center text-slate-500 hover:text-slate-200">
+                <NavbarSection />
+                <a href="#about">About</a>
+              </div>
+              <div className="flex items-center text-slate-500 hover:text-slate-200">
+                <NavbarSection />
+                <a href="#experience">Experience</a>
+              </div>
+              <div className="flex items-center text-slate-500 hover:text-slate-200">
+                <NavbarSection />
+                <a href="#projects">Projects</a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="font-sans p-4 max-w-md">
+        <div id="about" className="font-sans p-4 max-w-md">
           <div className="font-sans font-light text-sm text-slate-400 mt-10">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              My name’s Kavin and I’m currently a senior at the University of
+              Pittsburgh double majoring in computer science & data science with
+              an expected graduation date of April 2025. You can find my full
+              resume right below this section.
             </p>
-            <br></br>
+            <br />
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat.
+              I started programming in Java by building simple programs in high
+              school. Today, I have expanded and applied my skills to a wide
+              variety of problems. I love learning new languages, frameworks,
+              and working on interesting projects that challenge me.
             </p>
-            <br></br>
+            <br />
+            <p>
+              When I have a light workload and not drinking 3 coffees a day to
+              finish my classwork, I am usually weightlifting, watching a new
+              show, hanging with friends, or trying new coffee places.
+            </p>
+            <br />
 
-            <div className="mt-10">
+            <div className="flex font-bold text-slate-200 items-center mt-5 ml-5">
+              <Link href="/resume" className="flex items-center">
+                <span className="mr-1">Full Resume</span>
+                <ExternalLink />
+              </Link>
+            </div>
+
+            <div id="experience" className="mt-10">
               {workExperienceData.map((exp) => (
                 <WorkExperienceCard
                   key={exp.id}
@@ -59,15 +87,7 @@ export default function Home() {
 
             <br></br>
 
-            <div className="flex font-bold text-slate-200 items-center mt-5 ml-5">
-              <Link href="/resume" className="flex items-center">
-                <span className="mr-1">Full Resume</span>
-                <ExternalLink />
-              </Link>
-            </div>
-
-
-            <div className="mt-10">
+            <div id="projects" className="mt-10">
               {projectsData.map((proj) => (
                 <ProjectCard
                   key={proj.id}
