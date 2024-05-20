@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": "Cinect",
+        "description": "Cinect is a movie recommendation service, eliminating the pressure of choosing a movie for a group of friends! Using Letterboxd review data from one or more Letterboxd users, a list of desired genres, and a release date filter, Cinect delivers high quality movie recommendations.",
+        "url": "https://github.com/KavinSankar123/Cinect",
+        "imagePath": "/cinectlogo.png",
+        "tech": [
+            "Python (Flask)",
+            "JavaScript (React)",
+            "Docker",
+            "GCP Firestore",
+            "GCP Cloud Run",
+            "GCP Cloud Build"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Automated Notion Assignment Manager",
+        "description": "Developed an API integration with Canvas to automate fetching of assignment data from courses. Parsed and uploaded the retrieved data to a customized Notion database using the Notion API. Utilized Python and PostgreSQL to ensure efficient and accurate management of assignments.",
+        "url": "https://github.com/KavinSankar123/NotionAutomation",
+        "imagePath": "/cinectlogo.png",
+        "tech": [
+            "Python",
+            "PostgreSQL",
+            "Canvas API",
+            "Notion API"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Particle Simulator",
+        "description": "Simulates particles' orbits around a gravity source. Can render over 20,000 particles. Implemented with C++ and the SFML library",
+        "url": "https://github.com/KavinSankar123/ParticleOrbitalSimulation",
+        "imagePath": "/cinectlogo.png",
+        "tech": [
+            "C++",
+            "SFML"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Digit Classifier",
+        "description": "A simple neural network that can classify handwritten digits. Uses the MNIST dataset for the training and test data. Neural network was made from scratch using only Python & Numpy. Can classify handwritten digits with 96.7% accuracy",
+        "url": "https://github.com/KavinSankar123/Digit-Classifier",
+        "imagePath": "/cinectlogo.png",
+        "tech": [
+            "Python",
+            "NumPy"
+        ]
+    }
+]

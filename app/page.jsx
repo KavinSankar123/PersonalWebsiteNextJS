@@ -3,7 +3,12 @@
 import * as React from "react";
 
 import { WorkExperienceCard } from "@/components/work-experience-card";
+import { ProjectCard } from "@/components/project-card";
+
 import workExperienceData from "./work-experience-data.json";
+import projectsData from "./projects-data.json";
+
+import Image from "next/image";
 import Link from "next/link";
 
 import { ExternalLink } from "@/components/ui/externallink";
@@ -12,7 +17,6 @@ export default function Home() {
   return (
     <div className="flex justify-center min-h-screen">
       <div className="flex justify-between max-w-4xl w-full p-4">
-        
         <div className="w-1/3 p-4">
           <div className="text-slate-200 fixed">
             <h1 className="font-sans font-bold text-4xl mt-9">Kavin Sankar</h1>
@@ -59,6 +63,18 @@ export default function Home() {
                 <span className="mr-1">Full Resume</span>
                 <ExternalLink />
               </Link>
+            </div>
+
+            <div className="mt-10">
+              {projectsData.map((proj) => (
+                <ProjectCard
+                  key={proj.id}
+                  title={proj.title}
+                  description={proj.description}
+                  url={proj.url}
+                  tech={proj.tech}
+                />
+              ))}
             </div>
           </div>
         </div>
