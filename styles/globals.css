@@ -2,9 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+
+/* body {
   background-color: #0f172d;
+} */
+
+/* Oxford Blue */
+body {
+  background-color: #011936;
 }
+
+/* body {
+  background-color: #022336;
+} */
+
+/* 
+body {
+  background-color: #021e2e;
+} */
+
+/* Delft Blue */
+/* body {
+  background-color: #272D3F;
+} */
+
+
+
 
 @layer base {
   html {

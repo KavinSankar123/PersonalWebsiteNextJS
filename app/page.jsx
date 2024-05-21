@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className="font-sans font-bold text-4xl mt-9">Kavin Sankar</h1>
             <h2 className="font-sans text-l mt-2">Senior CS Student</h2>
             <p className="font-sans font-extralight text-slate-400 text-sm mt-4">
-              Aspiring software engineer, interested in backend development.
+              Aspiring software engineer, interested in full-stack development.
             </p>
 
             <div className="font-bold text-xs mt-10">

@@ -37,7 +37,14 @@ export function ProjectCard({ id, title, description, url, imagePath, tech }) {
       </CardHeader>
 
       <CardContent>
-        <p className="text-xs text-gray-500 text-slate-500">{description}</p>
+
+        {/* <p className="text-xs text-slate-500">{description}</p> */}
+        <ul className="text-xs text-slate-500 list-disc pl-5">
+          {description.map((sentence, index) => (
+            <li key={index}>{sentence}</li>
+          ))}
+        </ul>
+
       </CardContent>
 
       <CardFooter>
@@ -45,10 +52,15 @@ export function ProjectCard({ id, title, description, url, imagePath, tech }) {
           {tech.map((skill, index) => (
             <span
               key={index}
-              className="rounded-full px-2 py-0.8 font-extralight" // Smaller padding and text size
+              className="rounded-full px-2 py-0.8 font-light" // Smaller padding and text size
+              // style={{
+              //   backgroundColor: "rgba(39, 100, 85, 0.3)",
+              //   color: "#64ffda",
+              //   fontSize: "11px",
+              // }}
               style={{
-                backgroundColor: "rgba(39, 100, 85, 0.3)",
-                color: "#64ffda",
+                backgroundColor: "rgba(45, 29, 172, 0.4)",
+                color: "#00DFFF",
                 fontSize: "11px",
               }}
             >
