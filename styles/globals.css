@@ -27,10 +27,127 @@ body {
 } */
 
 
+#typewriter-animate1 {
+  border-right: transparent;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing1 1s steps(20, end),
+    cursor-blink1 1s steps(2, end) 1s,
+    cursor-hide1 0s 1s forwards;
+}
 
-
-@layer base {
-  html {
-    @apply scroll-smooth;
+@keyframes cursor-blink1 {
+  50% {
+    border-color: transparent;
   }
 }
+
+@keyframes typing1 {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes cursor-hide1 {
+  to {
+    border-color: transparent;
+  }
+}
+
+
+#typewriter-animate2 {
+  border-right: transparent;
+  width: 55%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing1 1s steps(18, end),
+    cursor-blink1 1s steps(2, end) 1s,
+    cursor-hide1 0s 1s forwards;
+}
+
+@keyframes cursor-blink2 {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing2 {
+  from {
+    width: 0;
+  }
+
+}
+
+@keyframes cursor-hide2 {
+  to {
+    border-color: transparent;
+  }
+}
+
+
+#typewriter-animate3 {
+  border-right: transparent;
+  width: 100%;
+  overflow: hidden;
+  animation:
+    typing3 1s steps(18, end),
+    cursor-blink3 1s steps(2, end) 1s,
+    cursor-hide3 0s 1s forwards;
+}
+
+@keyframes typing3 {
+  from {
+    clip-path: inset(0 100% 0 0); /* Clip from bottom to top initially */
+  }
+  to {
+    clip-path: inset(0 0 0 0); /* Clip path disappears to reveal text */
+  }
+}
+
+@keyframes cursor-blink3 {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes cursor-hide3 {
+  to {
+    border-color: transparent;
+  }
+}
+
+
+
+
+
+/* #typewriter-animate0 {
+  border-right: 3px solid;
+  width: 100%;
+  white-space: hidden;
+  overflow: hidden;
+  animation:
+    typing3 1s steps(18, end),
+    cursor-blink3 1s steps(2, end) 1s,
+    cursor-hide3 0s 1s forwards;
+}
+
+@keyframes cursor-blink3 {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing3 {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes cursor-hide3 {
+  to {
+    border-color: transparent;
+  }
+} */
