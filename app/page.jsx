@@ -19,28 +19,49 @@ export default function Home() {
       <div className="flex justify-between max-w-4xl w-full p-4">
         <div className="w-1/3 p-4">
           <div className="max-w-64 text-slate-200 fixed">
+            <h1
+              id="typewriter-animate1"
+              className="font-sans font-bold text-4xl mt-9"
+            >
+              Kavin Sankar
+            </h1>
+            <h2 id="typewriter-animate2" className="font-sans text-l mt-2">
+              Senior CS Student
+            </h2>
 
-
-            <h1 id="typewriter-animate1" className="font-sans font-bold text-4xl mt-9">Kavin Sankar</h1>
-            <h2 id="typewriter-animate2" className="font-sans text-l mt-2">Senior CS Student</h2>
-
-            <h3 id="typewriter-animate3" className="font-sans font-extralight text-slate-400 text-sm mt-4">
+            <h3
+              id="typewriter-animate3"
+              className="font-sans font-extralight text-slate-400 text-sm mt-4"
+            >
               Aspiring software engineer, interested in full-stack development.
             </h3>
 
             <div className="font-bold text-xs mt-10">
-              <div className="flex items-center text-slate-500 hover:text-slate-200">
-                <NavbarSection />
-                <a href="#about">About</a>
-              </div>
-              <div className="flex items-center text-slate-500 hover:text-slate-200">
-                <NavbarSection />
-                <a href="#experience">Experience</a>
-              </div>
-              <div className="flex items-center text-slate-500 hover:text-slate-200">
-                <NavbarSection />
-                <a href="#projects">Projects</a>
-              </div>
+              
+                <a href="#about">
+                  <div className="flex items-center text-slate-500 hover:text-slate-200">
+                    <NavbarSection />
+                    About
+                  </div>
+                </a>
+
+                <a href="#experience">
+                  <div className="flex items-center text-slate-500 hover:text-slate-200">
+                    <NavbarSection />
+                    Experience
+                  </div>
+                </a>
+
+              
+                <a href="#projects">
+                  <div className="flex items-center text-slate-500 hover:text-slate-200">
+                    <NavbarSection />
+                    Projects
+                  </div>
+                </a>
+
+
+
             </div>
           </div>
         </div>

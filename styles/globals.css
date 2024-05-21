@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* body {
   background-color: #0f172d;
@@ -118,36 +122,3 @@ body {
     border-color: transparent;
   }
 }
-
-
-
-
-
-/* #typewriter-animate0 {
-  border-right: 3px solid;
-  width: 100%;
-  white-space: hidden;
-  overflow: hidden;
-  animation:
-    typing3 1s steps(18, end),
-    cursor-blink3 1s steps(2, end) 1s,
-    cursor-hide3 0s 1s forwards;
-}
-
-@keyframes cursor-blink3 {
-  50% {
-    border-color: transparent;
-  }
-}
-
-@keyframes typing3 {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes cursor-hide3 {
-  to {
-    border-color: transparent;
-  }
-} */
