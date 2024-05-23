@@ -133,24 +133,26 @@ export default function Home() {
           </div>
         </div>
       ) : (
-        <div className="max-w-80 text-slate-200">
-          <h1
-            id="typewriter-animate1"
-            className="font-sans font-bold text-3xl mt-9"
-          >
-            Kavin Sankar
-          </h1>
+        <div className="ml-5 text-slate-200">
+          <div className="mr-5">
+            <h1
+              id="typewriter-animate1"
+              className="max-w-80 font-sans font-bold text-3xl mt-9"
+            >
+              Kavin Sankar
+            </h1>
 
-          <h2 id="typewriter-animate2" className="font-sans text-base mt-2">
-            Senior CS Student
-          </h2>
+            <h2 id="typewriter-animate2" className="font-sans text-base mt-2">
+              Senior CS Student
+            </h2>
 
-          <h3
-            id="typewriter-animate3"
-            className="font-sans font-extralight text-slate-400 text-sm mt-4"
-          >
-            Aspiring software engineer, interested in full-stack development.
-          </h3>
+            <h3
+              id="typewriter-animate3"
+              className="font-sans font-extralight text-slate-400 text-sm mt-4"
+            >
+              Aspiring software engineer, interested in full-stack development.
+            </h3>
+          </div>
 
           <h1 className="font-sans font-bold text-slate-200 mt-12">About</h1>
 
@@ -187,9 +189,11 @@ export default function Home() {
                 </Link>
               </div>
 
-              <h1 className="font-sans font-bold text-slate-200 mt-16">Experience</h1>
+              <h1 className="font-sans font-bold text-slate-200 mt-16">
+                Experience
+              </h1>
 
-              <div id="experience" className="mt-2">
+              <div id="experience" className="mt-5">
                 {workExperienceData.map((exp) => (
                   <WorkExperienceCard
                     key={exp.id}
@@ -205,9 +209,11 @@ export default function Home() {
 
               <br></br>
 
-              <h1 className="font-sans font-bold text-slate-200 mt-5">Projects</h1>
+              <h1 className="font-sans font-bold text-slate-200 mt-5">
+                Projects
+              </h1>
 
-              <div id="projects" className="mt-2">
+              <div id="projects" className="mt-5">
                 {projectsData.map((proj) => (
                   <ProjectCard
                     key={proj.id}

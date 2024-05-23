@@ -37,7 +37,7 @@ export function WorkExperienceCard({
         </div>
       </CardHeader>
       <CardContent>
-        <ul className="max-w-text-xs text-slate-500 list-disc pl-5">
+        <ul className="text-xs text-slate-500 list-disc pl-5">
           {description.map((sentence, index) => (
             <li key={index}>{sentence}</li>
           ))}
