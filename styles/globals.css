@@ -104,10 +104,10 @@ body {
 
 @keyframes typing3 {
   from {
-    clip-path: inset(0 100% 0 0); /* Clip from bottom to top initially */
+    clip-path: inset(0 100% 0 0);
   }
   to {
-    clip-path: inset(0 0 0 0); /* Clip path disappears to reveal text */
+    clip-path: inset(0 0 0 0); 
   }
 }
 

@@ -37,31 +37,26 @@ export default function Home() {
             </h3>
 
             <div className="font-bold text-xs mt-10">
-              
-                <a href="#about">
-                  <div className="flex items-center text-slate-500 hover:text-slate-200">
-                    <NavbarSection />
-                    About
-                  </div>
-                </a>
+              <a href="#about">
+                <div className="flex items-center text-slate-500 hover:text-slate-200">
+                  <NavbarSection />
+                  About
+                </div>
+              </a>
 
-                <a href="#experience">
-                  <div className="flex items-center text-slate-500 hover:text-slate-200">
-                    <NavbarSection />
-                    Experience
-                  </div>
-                </a>
+              <a href="#experience">
+                <div className="flex items-center text-slate-500 hover:text-slate-200">
+                  <NavbarSection />
+                  Experience
+                </div>
+              </a>
 
-              
-                <a href="#projects">
-                  <div className="flex items-center text-slate-500 hover:text-slate-200">
-                    <NavbarSection />
-                    Projects
-                  </div>
-                </a>
-
-
-
+              <a href="#projects">
+                <div className="flex items-center text-slate-500 hover:text-slate-200">
+                  <NavbarSection />
+                  Projects
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -90,9 +85,15 @@ export default function Home() {
             <br />
 
             <div className="flex font-bold text-slate-200 items-center mt-5 ml-5">
-              <Link href="/resume" className="flex items-center">
-                <span className="mr-1">Full Resume</span>
-                <ExternalLink />
+              <Link
+                href="/resume"
+                passHref
+                legacyBehavior
+              >
+                <a className="flex items-center" target="_blank">
+                  <span className="mr-1">Full Resume</span>
+                  <ExternalLink />
+                </a>
               </Link>
             </div>
 

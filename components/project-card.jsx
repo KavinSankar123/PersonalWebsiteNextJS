@@ -27,9 +27,15 @@ export function ProjectCard({ id, title, description, url, imagePath, tech }) {
                 <Image alt="Cinect" src={imagePath} width={50} height={10} />
               </div>
 
-              <Link href={url} className="flex items-center ml-2">
-                <span className="mr-1 text-xs text-slate-200">{title}</span>
-                <ArrowLink />
+              <Link
+                href={url}
+                passHref
+                legacyBehavior
+              >
+                <a className="flex items-center ml-2" target="_blank">
+                  <span className="mr-1 text-xs text-slate-200">{title}</span>
+                  <ArrowLink />
+                </a>
               </Link>
             </div>
           </div>
@@ -37,18 +43,16 @@ export function ProjectCard({ id, title, description, url, imagePath, tech }) {
       </CardHeader>
 
       <CardContent>
-
         {/* <p className="text-xs text-slate-500">{description}</p> */}
         <ul className="text-xs text-slate-500 list-disc pl-5">
           {description.map((sentence, index) => (
             <li key={index}>{sentence}</li>
           ))}
         </ul>
-
       </CardContent>
 
       <CardFooter>
-      <div className="flex flex-wrap gap-1 text-slate-400">
+        <div className="flex flex-wrap gap-1 text-slate-400">
           {tech.map((skill, index) => (
             <span
               key={index}
