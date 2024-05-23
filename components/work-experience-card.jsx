@@ -15,9 +15,13 @@ export function WorkExperienceCard({
   className,
 }) {
   return (
-    <Card
-      key={id}
-      className={`w-full max-w-md transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
+    // <Card
+    //   key={id}
+    //   className={`w-full max-w-md transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
+    // >
+    <Card 
+      key={id} 
+      className={className}
     >
       <CardHeader>
         <div className="flex flex-col gap-1">
@@ -33,7 +37,7 @@ export function WorkExperienceCard({
         </div>
       </CardHeader>
       <CardContent>
-        <ul className="text-xs text-slate-500 list-disc pl-5">
+        <ul className="max-w-text-xs text-slate-500 list-disc pl-5">
           {description.map((sentence, index) => (
             <li key={index}>{sentence}</li>
           ))}

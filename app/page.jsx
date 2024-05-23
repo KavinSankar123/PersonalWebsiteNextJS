@@ -110,6 +110,7 @@ export default function Home() {
                     company={exp.company}
                     description={exp.description}
                     skills={exp.skills}
+                    className={`w-full max-w-md transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
                   />
                 ))}
               </div>
@@ -132,33 +133,29 @@ export default function Home() {
           </div>
         </div>
       ) : (
+        <div className="max-w-80 text-slate-200">
+          <h1
+            id="typewriter-animate1"
+            className="font-sans font-bold text-3xl mt-9"
+          >
+            Kavin Sankar
+          </h1>
 
-          <div className="max-w-64 text-slate-200">
-            <h1
-              id="typewriter-animate1"
-              className="font-sans font-bold text-3xl mt-9"
-            >
-              Kavin Sankar
-            </h1>
+          <h2 id="typewriter-animate2" className="font-sans text-base mt-2">
+            Senior CS Student
+          </h2>
 
-            <h2 id="typewriter-animate2" className="font-sans text-sm mt-2">
-              Senior CS Student
-            </h2>
+          <h3
+            id="typewriter-animate3"
+            className="font-sans font-extralight text-slate-400 text-sm mt-4"
+          >
+            Aspiring software engineer, interested in full-stack development.
+          </h3>
 
-            <h3
-              id="typewriter-animate3"
-              className="font-sans font-extralight text-slate-400 text-xs mt-4"
-            >
-              Aspiring software engineer, interested in full-stack development.
-            </h3>
+          <h1 className="font-sans font-bold text-slate-200 mt-12">About</h1>
 
-
-            <h1 className="font-sans font-bold text-slate-200 mt-12">
-              About
-            </h1>
-
-            <div id="about" className="font-sans p-4 max-w-md">
-            <div className="font-sans font-light text-xs text-slate-400">
+          <div id="about" className="font-sans p-4 max-w-md">
+            <div className="font-sans font-light text-sm text-slate-400">
               <p>
                 My name’s Kavin and I’m currently a senior at the University of
                 Pittsburgh double majoring in computer science & data science
@@ -181,7 +178,7 @@ export default function Home() {
               </p>
               <br />
 
-              <div className="flex font-bold text-slate-200 items-center mt-5 ml-5">
+              <div className="flex font-bold text-slate-200 items-center mt-5">
                 <Link href="/resume" passHref legacyBehavior>
                   <a className="flex items-center" target="_blank">
                     <span className="mr-1">Full Resume</span>
@@ -190,7 +187,9 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div id="experience" className="mt-10">
+              <h1 className="font-sans font-bold text-slate-200 mt-16">Experience</h1>
+
+              <div id="experience" className="mt-2">
                 {workExperienceData.map((exp) => (
                   <WorkExperienceCard
                     key={exp.id}
@@ -199,13 +198,16 @@ export default function Home() {
                     company={exp.company}
                     description={exp.description}
                     skills={exp.skills}
+                    className={`w-full max-w-lg transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
                   />
                 ))}
               </div>
 
               <br></br>
 
-              <div id="projects" className="mt-10">
+              <h1 className="font-sans font-bold text-slate-200 mt-5">Projects</h1>
+
+              <div id="projects" className="mt-2">
                 {projectsData.map((proj) => (
                   <ProjectCard
                     key={proj.id}
@@ -214,15 +216,13 @@ export default function Home() {
                     url={proj.url}
                     imagePath={proj.imagePath}
                     tech={proj.tech}
+                    className={`transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
                   />
                 ))}
               </div>
             </div>
           </div>
-
-
-          </div>
-
+        </div>
       )}
     </div>
   );
