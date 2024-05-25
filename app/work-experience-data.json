@@ -28,7 +28,8 @@
             "Python",
             "AWS (Lambda, Athena, S3)",
             "REST APIs",
-            "Pytest"
+            "Pytest",
+            "Terraform"
         ]
     },
     {
