@@ -86,7 +86,7 @@ export default function Home() {
               </p>
               <br />
               <p>
-                When I have a light workload and not drinking 3 coffees a day to
+                When I have a light workload and not I'm drinking 3 coffees a day to
                 finish my classwork, I am usually weightlifting, watching a new
                 show, hanging with friends, or trying new coffee places.
               </p>
