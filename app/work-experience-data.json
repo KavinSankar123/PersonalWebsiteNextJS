@@ -5,12 +5,25 @@
         "title": "Software Engineering Intern",
         "company": "PNC Financial Services",
         "description": [
-            "Currently interning..."
+            "Developed a Kafka consumer application to ingest messages from BIAN topics in an Agile environment.",
+            "Implemented deserialization and decryption of incoming messages and transformed them appropriately to be inserted into an Oracle database.",
+            "Utilized Kafka and Java Spring Boot for application development.",
+            "Established a CI/CD pipeline with Docker and Jenkins, deploying the application on OpenShift.",
+            "Conducted API endpoint testing and message ingestion validation using Postman."
         ],
         "skills": [
-            "Java",
-            "Spring Boot",
-            "Micro API"
+            "Java Spring Boot",
+            "Kafka",
+            "SQL",
+            "Oracle DB",
+            "Docker",
+            "OpenShift",
+            "Git",
+            "BitBucket",
+            "Postman",
+            "Jenkins",
+            "Agile",
+            "CI/CD"
         ]
     },
     {

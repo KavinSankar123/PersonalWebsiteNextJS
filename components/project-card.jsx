@@ -23,16 +23,17 @@ export function ProjectCard({ id, title, description, url, imagePath, tech }) {
         <div className="flex flex-col gap-1">
           <div className="flex justify-between items-center gap-2">
             <div className="flex items-center">
-              <div>
-                <Image alt="Cinect" src={imagePath} width={50} height={10} />
-              </div>
-
-              <Link
-                href={url}
-                passHref
-                legacyBehavior
-              >
+              <Link href={url} passHref legacyBehavior>
                 <a className="flex items-center ml-2" target="_blank">
+                  <div>
+                    <Image
+                      alt="Cinect"
+                      src={imagePath}
+                      width={50}
+                      height={10}
+                      style={{ marginRight: '8px' }}
+                    />
+                  </div>
                   <span className="mr-1 text-xs text-slate-200">{title}</span>
                   <ArrowLink />
                 </a>
