@@ -19,7 +19,7 @@ export function VolunteerCard({
         <img
           src={imagePath}
           alt="Volunteer Experience"
-          className="h-32 object-cover mt-4"
+          className="h-24 object-cover mt-4"
         />
       </div>
       <CardContent className="p-6 space-y-4">
