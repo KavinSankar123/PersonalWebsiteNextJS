@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "duration": "Oct 2021 - Present",
+        "title": "Coding Instructor",
+        "name": "Girls Who Code",
+        "imagePath": "/components/gwclogo.png",
+        "description": [
+            "Introduced over 60 elementary school girls to visual block coding through Scratch and ignited their passion for programming.",
+            "Designed, implemented, and walked through girls a semester long coding project.",
+            "Presented and explained computer science concepts such as the design of algorithms.",
+            "Facilitated discussions between students on real-world applications in computing."
+        ],
+        "skills": [
+            "Scratch",
+            "Computer Science",
+            "Algorithms",
+            "Teaching",
+            "Communication"
+        ]
+    },
+    {
+        "id": 2,
+        "duration": "Aug 2022 - Present",
+        "title": "Resident Assistant",
+        "name": "University of Pittsburgh, Residence Life",
+        "imagePath": "/components/pittlogo.png",
+        "description": [
+            "Facilitated and aided in programming events for Pitt Residence Life.",
+            "Fostered a welcoming and inclusive environment for first-year residents.",
+            "Collaborated in a coordinated team, assisting fellow staff members for additional responsibilities.",
+            "Supervised over 90 residents in total.",
+            "Attended weekly staff meetings."
+        ],
+        "skills": [
+            "Mentorship",
+            "Communication",
+            "Collaboration"
+        ]
+    },
+    {
+        "id": 3,
+        "duration": "May 2022 - June 2022",
+        "title": "Assistant Instructor",
+        "name": "Exploring Cybersecurity Pathways",
+        "imagePath": "/components/cybersecuritylogo.png",
+        "description": [
+            "Boosted students' confidence in technology by providing an introduction to cybersecurity.",
+            "Attended weekly staff meetings.",
+            "Helped students with security vulnerability testing and network scanning.",
+            "Assisted students with the Bash Shell and Unix tools."
+        ],
+        "skills": [
+            "Unix",
+            "Linux",
+            "Bash",
+            "Networks"
+        ]
+    }
+]

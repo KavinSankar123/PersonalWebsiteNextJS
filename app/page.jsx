@@ -4,9 +4,11 @@ import * as React from "react";
 
 import { WorkExperienceCard } from "@/components/work-experience-card";
 import { ProjectCard } from "@/components/project-card";
+import { VolunteerCard } from "@/components/volunteer-experience-card";
 
 import workExperienceData from "./work-experience-data.json";
 import projectsData from "./projects-data.json";
+import volunteerExperienceData from "./volunteer-experience.json";
 
 import Link from "next/link";
 
@@ -64,6 +66,13 @@ export default function Home() {
                     Projects
                   </div>
                 </a>
+
+                <a href="#volunteering">
+                  <div className="flex items-center text-slate-500 hover:text-slate-200">
+                    <NavbarSection />
+                    Volunteering
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -86,9 +95,9 @@ export default function Home() {
               </p>
               <br />
               <p>
-                When I have a light workload and not I'm drinking 3 coffees a day to
-                finish my classwork, I am usually weightlifting, watching a new
-                show, hanging with friends, or trying new coffee places.
+                When I have a light workload and not I'm drinking 3 coffees a
+                day to finish my classwork, I am usually weightlifting, watching
+                a new show, hanging with friends, or trying new coffee places.
               </p>
               <br />
 
@@ -126,6 +135,23 @@ export default function Home() {
                     url={proj.url}
                     imagePath={proj.imagePath}
                     tech={proj.tech}
+                  />
+                ))}
+              </div>
+
+              <br></br>
+
+              <div id="volunteering" className="mt-10">
+                {volunteerExperienceData.map((exp) => (
+                  <VolunteerCard
+                    key={exp.id}
+                    duration={exp.duration}
+                    title={exp.title}
+                    name={exp.name}
+                    imagePath={exp.imagePath}
+                    description={exp.description}
+                    skills={exp.skills}
+                    className={`w-full max-w-md transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
                   />
                 ))}
               </div>
@@ -179,7 +205,6 @@ export default function Home() {
                 show, hanging with friends, or trying new coffee places.
               </p>
               <br />
-
               <div className="flex font-bold text-slate-200 items-center mt-5">
                 <Link href="/resume" passHref legacyBehavior>
                   <a className="flex items-center" target="_blank">
@@ -188,11 +213,9 @@ export default function Home() {
                   </a>
                 </Link>
               </div>
-
               <h1 className="font-sans font-bold text-slate-200 mt-16">
                 Experience
               </h1>
-
               <div id="experience" className="mt-5">
                 {workExperienceData.map((exp) => (
                   <WorkExperienceCard
@@ -206,13 +229,10 @@ export default function Home() {
                   />
                 ))}
               </div>
-
               <br></br>
-
               <h1 className="font-sans font-bold text-slate-200 mt-5">
                 Projects
               </h1>
-
               <div id="projects" className="mt-5">
                 {projectsData.map((proj) => (
                   <ProjectCard
@@ -223,6 +243,24 @@ export default function Home() {
                     imagePath={proj.imagePath}
                     tech={proj.tech}
                     className={`transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
+                  />
+                ))}
+              </div>
+              <br></br>
+              <h1 className="font-sans font-bold text-slate-200 mt-5">
+                Volunteering
+              </h1>
+              <div id="volunteering" className="mt-5">
+                {volunteerExperienceData.map((exp) => (
+                  <VolunteerCard
+                    key={exp.id}
+                    duration={exp.duration}
+                    title={exp.title}
+                    name={exp.name}
+                    imagePath={exp.imagePath}
+                    description={exp.description}
+                    skills={exp.skills}
+                    className={`w-full max-w-lg transition duration-100 ease-in-out transform hover:scale-105 hover:bg-workExpCustomHover hover:shadow-lg hover:rounded-xl`}
                   />
                 ))}
               </div>
