@@ -6,7 +6,8 @@
         "company": "PNC Financial Services",
         "description": [
             "Developed 2 Kafka consumer applications to ingest millions of messages from BIAN topics and end users in an Agile environment.",
-            "Implemented deserialization, decryption, and transformation of incoming messages to be inserted into an Oracle Database.",
+            "Implemented deserialization, decryption, and transformation operations of incoming messages.",
+            "Upserted transformed message records to Oracle Database using JDBC and SQL.",
             "Utilized Kafka and Java Spring Boot for application development.",
             "Established a CI/CD pipeline with Docker and Jenkins, deploying the application on OpenShift.",
             "Conducted API endpoint testing and message ingestion validation using Postman."
