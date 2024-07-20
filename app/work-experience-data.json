@@ -5,12 +5,11 @@
         "title": "Software Engineering Intern",
         "company": "PNC Financial Services",
         "description": [
-            "Developed 2 Kafka consumer applications to ingest millions of messages from BIAN topics and end users in an Agile environment.",
-            "Implemented deserialization, decryption, and transformation operations of incoming messages.",
-            "Upserted transformed message records to Oracle Database using JDBC and SQL.",
-            "Utilized Kafka and Java Spring Boot for application development.",
-            "Established a CI/CD pipeline with Docker and Jenkins, deploying the application on OpenShift.",
-            "Conducted API endpoint testing and message ingestion validation using Postman."
+            "Engineered Kafka consumer services, ingesting over 125 million messages daily from users to assist in real-time insight generation regarding customer transactions.",
+            "Implemented deserialization, decryption, and transformation operations on ingested messages.",
+            "Upserted transformed message records, storing data in an Oracle Database by using JDBC and SQL.",
+            "Established CI/CD pipelines, deploying applications on OpenShift by using Docker and Jenkins to scale services.",
+            "Developed applications utilizing Kafka and Java Spring Boot."
         ],
         "skills": [
             "Java (Spring Boot)",
@@ -33,10 +32,10 @@
         "title": "Software Engineering Intern",
         "company": "Pitt Athletics",
         "description": [
-            "Developed 3 Python-based microservices for data ingestion for over 2,400,000 million records.",
-            "Integrated data from REST APIs as primary data sources for microservices.",
-            "Deployed microservices on AWS, utilizing AWS Lambda for testing and AWS Athena for SQL-based data manipulation.",
-            "Wrote unit tests using Pytest to ensure 90% code coverage on developed services."
+            "Developed 3 Python-based microservices for data ingestion for over 2.4 million records.",
+            "Integrated data, using REST APIs as primary data sources by designing seamless integration workflows.",
+            "Deployed microservices on AWS, utilizing AWS Lambda for testing and AWS Athena for SQL queries.",
+            "Wrote unit tests, ensuring 90% code coverage by using Pytest for thorough testing."
         ],
         "skills": [
             "Python",
