@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Cinect",
         "description": [
-            "Developed a movie recommendation system utilizing a KNN machine learning model trained on 33 million ratings.",
+            "Developed a movie rec system utilizing a KNN machine learning model trained on 33 million ratings to deliver high-quality movie recommendations.",
             "Implemented using a Python Flask API backend and JavaScript React frontend.",
             "Setup a CI/CD pipeline using Google Cloud Build for automated testing and deployment.",
             "Deployed the service on Google Cloud using Docker images for scalability.",
