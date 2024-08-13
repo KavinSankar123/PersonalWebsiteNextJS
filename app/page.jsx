@@ -82,8 +82,8 @@ export default function Home() {
               <p>
                 My name’s Kavin and I’m currently a senior at the University of
                 Pittsburgh double majoring in computer science & data science
-                with an expected graduation date of April 2025. You can find my
-                full resume right below this section.
+                with an expected graduation date of April 2025 for my bachelors. 
+                You can find my full resume right below this section.
               </p>
               <br />
               <p>
