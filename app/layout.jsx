@@ -30,6 +30,7 @@
 
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
