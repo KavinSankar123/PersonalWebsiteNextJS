@@ -41,8 +41,8 @@ export default function Home() {
                 id="typewriter-animate3"
                 className="font-sans font-extralight text-slate-400 text-sm mt-4"
               >
-                Aspiring software engineer, interested in full-stack
-                development.
+                Aspiring software engineer, interested in back-end
+                engineering.
               </h3>
 
               <div className="font-bold text-xs mt-10">
@@ -176,7 +176,7 @@ export default function Home() {
               id="typewriter-animate3"
               className="font-sans font-extralight text-slate-400 text-sm mt-4"
             >
-              Aspiring software engineer, interested in full-stack development.
+              Aspiring software engineer, interested in back-end engineering.
             </h3>
           </div>
 
