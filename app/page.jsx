@@ -41,7 +41,7 @@ export default function Home() {
                 id="typewriter-animate3"
                 className="font-sans font-extralight text-slate-400 text-sm mt-4"
               >
-                Aspiring software engineer, interested in back-end
+                Software engineer, interested in back-end
                 engineering.
               </h3>
 
@@ -176,7 +176,7 @@ export default function Home() {
               id="typewriter-animate3"
               className="font-sans font-extralight text-slate-400 text-sm mt-4"
             >
-              Aspiring software engineer, interested in back-end engineering.
+              Software engineer, interested in back-end engineering.
             </h3>
           </div>
 
