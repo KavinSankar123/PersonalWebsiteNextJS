@@ -27,7 +27,7 @@ export default function Home() {
           <div className="w-1/3 p-4">
             {/* <div className="max-w-64 text-slate-200 fixed"> */}
             {/* <div className="max-w-96 text-slate-200 fixed"> */}
-            <div className="max-w-[1rem] text-slate-200 fixed">
+            <div className="text-slate-200 fixed">
               <h1
                 id="typewriter-animate1"
                 className="font-sans font-bold text-4xl mt-9"
