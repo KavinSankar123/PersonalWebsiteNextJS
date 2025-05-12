@@ -25,8 +25,7 @@ export default function Home() {
       {isDesktop ? (
         <div className="flex justify-between max-w-4xl w-full p-4">
           <div className="w-1/3 p-4">
-            {/* <div className="max-w-64 text-slate-200 fixed"> */}
-            <div className="max-w-xl text-slate-200 fixed">
+            <div className="max-w-64 text-slate-200 fixed">
               <h1
                 id="typewriter-animate1"
                 className="font-sans font-bold text-4xl mt-9"
