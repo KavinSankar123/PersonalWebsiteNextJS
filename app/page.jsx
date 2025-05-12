@@ -32,10 +32,10 @@ export default function Home() {
               >
                 Kavin Sankar
               </h1>
-
+{/* 
               <h2 id="typewriter-animate2" className="font-sans text-l mt-2">
                 MCS Student @ UIUC
-              </h2>
+              </h2> */}
               <h2 id="typewriter-animate2" className="font-sans text-l mt-2 whitespace-nowrap">
                 MCS Student @ UIUC
               </h2>
