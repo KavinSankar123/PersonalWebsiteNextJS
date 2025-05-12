@@ -34,14 +34,14 @@ export default function Home() {
               </h1>
 
               <h2 id="typewriter-animate2" className="font-sans text-l mt-2">
-                Senior CS Student
+                MSCS Student @ University of Illinois Urbana-Champaign
               </h2>
 
               <h3
                 id="typewriter-animate3"
                 className="font-sans font-extralight text-slate-400 text-sm mt-4"
               >
-                Software engineer, interested in back-end
+                Software engineer, interested in back-end engineering.
                 engineering.
               </h3>
 
@@ -82,7 +82,7 @@ export default function Home() {
               <p>
                 My name’s Kavin and I’m currently a senior at the University of
                 Pittsburgh double majoring in computer science & data science
-                with an expected graduation date of April 2025 for my bachelors. 
+                with an expected graduation date of April 2025 for my bachelors.
                 You can find my full resume right below this section.
               </p>
               <br />
@@ -169,7 +169,7 @@ export default function Home() {
             </h1>
 
             <h2 id="typewriter-animate2" className="font-sans text-base mt-2">
-              Senior CS Student
+              MCS Student @ University of Illinois Urbana-Champaign
             </h2>
 
             <h3
@@ -189,19 +189,25 @@ export default function Home() {
                 Pittsburgh double majoring in computer science & data science
                 with an expected graduation date of April 2025. You can find my
                 full resume right below this section.
+
+                My name's Kavin and I'm a Master of Computer Science (MCS) student @
+                University of Illinois Urbana-Champaign with an expected graduation date
+                of December 2026. My primary coursework interests are distributed systems,
+                cloud computing, and software engineering! You can find my full resume right
+                below this section.
               </p>
               <br />
               <p>
                 I started programming in Java by building simple programs in
                 high school. Today, I have expanded and applied my skills to a
-                wide variety of problems. I love learning new languages,
-                frameworks, and working on interesting projects that challenge
-                me.
+                wide variety of problems and have garnered three software engineering
+                internships. I love learning new languages, frameworks, and working on
+                interesting projects that challenge me.
               </p>
               <br />
               <p>
-                When I have a light workload and not drinking 3 coffees a day to
-                finish my classwork, I am usually weightlifting, watching a new
+                When I have a light workload and not handling ten different assignments
+                at the same time, I'm usually weightlifting, watching a new
                 show, hanging with friends, or trying new coffee places.
               </p>
               <br />
