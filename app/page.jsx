@@ -27,7 +27,7 @@ export default function Home() {
           <div className="w-1/3 p-4">
             {/* <div className="max-w-64 text-slate-200 fixed"> */}
             {/* <div className="max-w-96 text-slate-200 fixed"> */}
-            <div className="max-w-[20rem] text-slate-200 fixed">
+            <div className="max-w-[200rem] text-slate-200 fixed">
               <h1
                 id="typewriter-animate1"
                 className="font-sans font-bold text-4xl mt-9"
@@ -35,7 +35,7 @@ export default function Home() {
                 Kavin Sankar
               </h1>
               <h3 id="typewriter-animate2" className="font-sans text-sm mt-4">
-                MCS Student @ University of Illinois Urbana-Champaign
+                MCS @ University of Illinois Urbana-Champaign
               </h3>
 
               <h3
