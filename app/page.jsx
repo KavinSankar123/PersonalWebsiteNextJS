@@ -171,7 +171,7 @@ export default function Home() {
             </h1>
 
             <h2 id="typewriter-animate2" className="font-sans text-base mt-2">
-              MCS @ University of Illinois Urbana-Champaign
+              MCS Student @ UIUC
             </h2>
 
             <h3
