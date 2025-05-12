@@ -34,7 +34,7 @@ export default function Home() {
               >
                 Kavin Sankar
               </h1>
-              <h3 id="typewriter-animate2" className="font-sans text-sm mt-2">
+              <h3 id="typewriter-animate2" className="font-sans text-sm mt-4">
                 MCS Student @ University of Illinois Urbana-Champaign
               </h3>
 
