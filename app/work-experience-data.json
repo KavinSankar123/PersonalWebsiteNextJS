@@ -5,12 +5,10 @@
         "title": "Software Engineering Intern",
         "company": "Capital One",
         "description": [
-            "Contributed to a system that transformed a 2,500-human agent manual process into a streamlined, ML-driven
-platform that reduced transaction dispute resolution times from 60 days to real-time.",
-            ".",
-            ".",
-            "."
-
+            "Contributed to a system that transformed a 2,500-human agent manual process into a streamlined, ML-driven platform that reduced transaction dispute resolution times from 60 days to real-time.",
+            "Developed and deployed an AWS Lambda function in Python to aggregate fraud decision data from automated services and human agents, integrating with AWS Step Functions and other internal Lambdas.",
+            "Wrote comprehensive unit, component, and functional tests using PyTest and Gherkin.",
+            "Utilized Docker for containerization and Jenkins for CI/CD to ensure high code quality and deployment reliability."
         ],
         "skills": [
             "Python",
