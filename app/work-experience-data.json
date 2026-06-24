@@ -1,6 +1,22 @@
 [
-    {
+        {
         "id": 1,
+        "duration": "May 2065 - Aug 2026",
+        "title": "Backend Software Engineering Intern",
+        "company": "Robinhood",
+        "description": [
+            "Brokerage Infrastructure Team"
+        ],
+        "skills": [
+            "Go",
+            "gRPC",
+            "Python",
+            "Django",
+            "Bazel"
+        ]
+    },
+    {
+        "id": 2,
         "duration": "June 2025 - Aug 2025",
         "title": "Software Engineering Intern",
         "company": "Capital One",
@@ -20,7 +36,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "duration": "May 2024 - Aug 2024",
         "title": "Software Engineering Intern",
         "company": "PNC Financial Services",
@@ -47,7 +63,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "duration": "Sep 2023 - Apr 2024",
         "title": "Software Engineering Intern",
         "company": "Pitt Athletics",
@@ -66,7 +82,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "duration": "May 2023 - Aug 2023",
         "title": "System Administrator Intern",
         "company": "Federated Hermes",
@@ -82,7 +98,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "duration": "Jan 2023 - May 2023",
         "title": "CS Undergraduate Teaching Assistant",
         "company": "University of Pittsburgh",
@@ -100,7 +116,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "duration": "Jan 2022 - May 2022",
         "title": "CS Undergraduate Teaching Assistant",
         "company": "University of Pittsburgh",
